@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    s.scan(/[\w'-]+|[.,!?]+/)
+    # self.split(". ").count
     s.scan(/[\w'-]+|[.,!?]+/)
     # binding.pry
   end
