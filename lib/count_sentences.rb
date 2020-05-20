@@ -18,6 +18,6 @@ class String
     self.split(". ", "!! ").count
     
     
-    # binding.pry
+    binding.pry
   end
 end
